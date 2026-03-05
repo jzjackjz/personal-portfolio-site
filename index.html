@@ -4,376 +4,188 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jack Zhang Portfolio</title>
+    <title>Jack Zhang</title>
     <link rel="icon" href="assets/favicon.png" type="image/png">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
-    <div id="navigation-placeholder"></div>
-    <div id="navigation-clicks-placeholder"></div>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/JZProfilePic.png" alt="Jack Zhang profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Jack Zhang</h1>
-        <p class="section__text__p2">Vanderbilt Student and Software Engineer</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/JACK ZHANG RESUME.pdf')"
-          >
-            Download Resume
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/jackzhang10/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/jzjackjz/'"
-          />
-          <img
-            src="./assets/huggingface.png"
-            alt="My HuggingFace profile"
-            class="icon"
-            onclick="location.href='https://huggingface.co/jzjackjz'"
-          />
+    <nav>
+      <div class="nav-content">
+        <a href="#" class="logo">Jack Zhang</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="./assets/JACK ZHANG RESUME Mar2026.pdf" target="_blank">Resume</a>
         </div>
       </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>B.S Bachelors Degree - Vanderbilt University<br />Computer Science, Economics</p>
-            </div>
-          </div>
-          <div class="text-container">
+    </nav>
+
+    <main>
+      <section class="hero">
+        <img src="./assets/JZProfilePic.png" alt="Jack Zhang" class="profile-pic" />
+        
+        <h1>Software Engineer</h1>
+        <h2></h2>
+        
+        <p class="hero-description">
+          I build products end-to-end: from infrastructure and APIs to distributed systems and cloud services. Currently at Amazon building supply chain optimization systems.
+        </p>
+        
+        <div class="hero-socials">
+          <a href="https://github.com/jzjackjz" target="_blank" class="social-link">
+            <img src="./assets/github.png" alt="GitHub" />
+          </a>
+          <a href="https://www.linkedin.com/in/jackzhang10/" target="_blank" class="social-link">
+            <img src="./assets/linkedin.png" alt="LinkedIn" />
+          </a>
+          <a href="mailto:jackjz1112@gmail.com" class="social-link">
+            <img src="./assets/email.png" alt="Email" />
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <div class="section-divider"></div>
+
+    <main>
+      <section class="content-section" id="about">
+        <div class="section-title-wrapper">
+          <h2>About</h2>
+        </div>
+        
+        <div class="section-content">
+          <div class="about-content">
             <p>
-                I'm a 21-year-old studying computer science and economics at Vanderbilt University in Nashville, TN. My passion for technology and problem-solving has led me to pursue software engineering as a career path. I've previously worked at Amazon and Iron Galaxy Studios. At Amazon, I worked in their Supply Chain Optimization Technologies organization. I engineered a cloud-based service to manage labor cost storage, showcasing my Java, Typescript, and AWS proficiency. At Iron Galaxy Studios, I played a vital role in game development, from converting game compatibility to debugging using C++ and Unreal Engine 4.
-                <br><br>
-                Outside of professional settings, I love playing table tennis, trying new restaurants, and spending time with friends and family. I'm also a self-employed tutor in my free time, aiding students in STEM subjects. I believe in giving back to the community and leveraging my knowledge to help others excel academically.
-                <br><br>
-                I'm exploring opportunities where I can bring my strong analytical skills, technical proficiency, and innovative thinking to tackle real-world problems. I hope this website provides some more clarity about me and my professional background. Please feel free to download my resume or contact my email to connect!
-                
+              Welcome, and thanks for visiting my personal portfolio! I designed, developed, and deployed this site from scratch to showcase my work. I'm currently a software engineer at Amazon with a focus on distributed systems and backend infrastructure. I grew up with a passion for technology and problem-solving, which naturally led me to pursue software engineering. I graduated from Vanderbilt University with degrees in Computer Science and Economics.
+            </p>
+            
+            <p>
+              At Amazon, I work with the Supply Chain Optimization Technologies organization to build data pipelines, internal tools, and backend services that power real-time procurement decisions. The role gave me early exposure to shipping production software in a fast-paced, high-stakes environment. This role taught me how to collaborate closely with cross-functional teams to build things that actually get used.
+            </p>
+            
+            <p>
+              In my own time, I enjoy building full-stack systems that solve real problems. I’m drawn to designing systems that are reliable, well-structured, and able to grow as they’re used. I’m especially interested in how AI is beginning to shape everyday software workflows and how it will change the way products are built. Along the way, I try to stay curious, communicate clearly, and turn ideas into working software.
+            </p>
+            
+            <p>
+              Outside of work, I spend most of my time trying new restaurants with friends using Beli, playing chess and table tennis, and tutoring students in math. I'm also a huge fan of traveling to new countries to try their cuisine and immerse myself in their culture. Please don't hesitate to reach out for any inquiries or opportunities!
             </p>
           </div>
         </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Skills</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Programming Languages</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/c++.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>C++</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/java.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Java</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/python.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/javascript.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/typescript.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/sql.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>SQL</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/htmlcss.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML/CSS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/php.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>PHP</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frameworks & Technologies</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/react.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>React</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/aws.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>AWS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/git.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/django.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Django</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/postgresql.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/gradle.svg"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Gradle</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/figma.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Figma</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
+      </section>
 
-              <article>
-                <img
-                  src="./assets/docker.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Docker</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
+      <section class="content-section" id="experience">
+        <div class="section-title-wrapper">
+          <h2>Experience</h2>
+        </div>
+        
+        <div class="section-content">
+          <div class="experience-grid">
+            <a href="https://www.amazon.com" target="_blank" class="experience-card">
+              <h3>Amazon <span class="arrow">›</span></h3>
+              <p class="job-title">Software Development Engineer</p>
+              <p class="experience-meta">New York, NY</p>
+              <p class="experience-meta">Aug 2024 – Present</p>
+              <ul>
+                <li>Drove development and optimization of 15+ backend APIs in Java on AWS that compute network topology and shipping cost estimates, enabling real-time procurement and inventory allocation across 600M+ product listings</li>
+                <li>Automated region data synchronization across services by driving design alignment with cross-team senior engineers, eliminating manual workflows, saving 4+ engineering hours per week, and reducing production release errors by 70%</li>
+                <li>Led production rollout of a new fulfillment center workflow across 50 warehouses, expanding network throughput by 80M+ inventory units per year through integration testing, A/B testing, and cross-team simulations</li>
+                <li>Authored an Operational Readiness Review, identifying and driving 15 improvements including request throttling and horizontal scaling optimizations, reducing operational incidents by 30%</li>
+                <li>Designed and deployed service health monitoring using AWS CDK and CloudFormation (IaC), building dashboards, alarms, and metrics to track latency, error rates, and downstream dependency health</li>
+                <li>Mitigated 80+ high-severity production incidents and resolved 800+ operational tickets by debugging distributed services using CloudWatch metrics and logs</li>
+              </ul>
+              <div class="tags">
+                <span class="tag">Java</span>
+                <span class="tag tag-with-tooltip">AWS
+                  <span class="tooltip">ECS, EC2, Lambda, S3, SQS, SNS, CloudWatch, CDK IaC, CloudFormation, DynamoDB, Redshift, Bedrock, IAM, API Gateway</span>
+                </span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Scala</span>
+                <span class="tag">Python</span>
+                <span class="tag">SQL</span>
+                <span class="tag">Gradle</span>
+                <span class="tag">Maven</span>
+                <span class="tag">Distributed Systems</span>
+                <span class="tag tag-with-tooltip">Unit Testing
+                  <span class="tooltip">JUnit, Mockito</span>
+                </span>
+                <span class="tag">A/B Testing</span>
+                <span class="tag">Git</span>
+              </div>
+            </a>
+
+            <a href="https://www.amazon.com" target="_blank" class="experience-card">
+              <h3>Amazon <span class="arrow">›</span></h3>
+              <p class="job-title">Software Development Engineering Intern</p>
+              <p class="experience-meta">New York, NY</p>
+              <p class="experience-meta">May 2023 – Aug 2023</p>
+              <ul>
+                <li>Built ECS/Fargate-based cloud service with 99.9% availability and sub-50ms latency supporting supply chain workflows</li>
+                <li>Automated the finance-to-production data pipeline, eliminating manual SDE intervention and full-day deployment cycles, driving seven-figure annual efficiency and cost savings</li>
+                <li>Improved data reliability by building an Excel ingestion and transformation pipeline using S3 and SQS, fixing 4 critical labor cost data flow bugs</li>
+                <li>Owned end-to-end system architecture, implementation, testing, monitoring, and production readiness for a service that remains in active production use</li>
+              </ul>
+              <div class="tags">
+                <span class="tag">Java</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag tag-with-tooltip">AWS
+                  <span class="tooltip">ECS, Fargate, S3, SQS, CloudWatch</span>
+                </span>
+                <span class="tag">Python</span>
+                <span class="tag">Apache POI</span>
+                <span class="tag">Distributed Systems</span>
+                <span class="tag">Git</span>
+              </div>
+            </a>
+
+            <a href="https://www.irongalaxystudios.com" target="_blank" class="experience-card">
+              <h3>Iron Galaxy Studios <span class="arrow">›</span></h3>
+              <p class="job-title">Software Engineering Intern</p>
+              <p class="experience-meta">Nashville, TN</p>
+              <p class="experience-meta">May 2022 – Aug 2022</p>
+              <ul>
+                <li>Converted compatibility of Crash Bandicoot 4 from Battle.net to Steam utilizing C++ and Unreal Engine 4 with P4V</li>
+                <li>Identified and fixed 120+ production bugs across two shipped game titles, supporting stable product launches</li>
+                <li>Collaborated with a team of interns to design and prototype a parkour game using C++ and Unreal Engine 4</li>
+              </ul>
+              <div class="tags">
+                <span class="tag">C++</span>
+                <span class="tag">Unreal Engine</span>
+                <span class="tag">P4V</span>
+                <span class="tag">Game Development</span>
+              </div>
+            </a>
           </div>
         </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My</p>
-      <h1 class="title">Professional Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="text-container">
-                <img
-                src="./assets/amazon.png"
-                alt="Amazon"
-                class="project-img"
-                />
-                <p>New York, NY</p>
-                <p>Software Development Engineering Intern</p>
-                <p style="text-align: left;"><br>During the summer of 2023, I worked at Amazon as a software development engineering intern.
-                    Throughout this enriching experience, I contributed to the design and deployment of a cloud-based service
-                    aimed at optimizing the storage and transformation of labor cost data for the Automated Inventory Planning
-                    organization. My role was instrumental in automating complex processes,
-                    ensuring robust error-handling, and streamlining data flow between different teams.
-                    Beyond the technical aspects, I collaborated with a diverse group of professionals,
-                    gaining invaluable insights into the operational intricacies of a hyper-successful company.</p>
-            </div>
-            <div class="btn-container">
-              
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="text-container">
-                <img
-                src="./assets/igs.png"
-                alt="Iron Galaxy Studios"
-                class="project-img2"
-                />
-                <p>Nashville, TN</p>
-                <p>Software Engineering Intern</p>
-                <p style="text-align: left;"><br>In the summer of 2022, I worked as a software engineering intern at Iron Galaxy Studios.
-                  During my time there, I was deeply involved in enhancing the compatibility of popular titles,
-                  ensuring a seamless gaming experience for players across different platforms. I took the lead in
-                  identifying and rectifying over 120 game errors prior to the release of 'Rumbleverse' and 'Crash Bandicoot 4: It's About Time,
-                  ensuring a smooth launch. My time at Iron Galaxy not only sharpened my technical acumen but also
-                  offered a comprehensive view into the dynamic world of game development.
-                </p>
-            </div>
-            <div class="btn-container">
-              
-            </div>
+      </section>
+
+      <section class="content-section" id="education">
+        <div class="section-title-wrapper">
+          <h2>Education</h2>
+        </div>
+        
+        <div class="section-content">
+          <div class="education-grid">
+            <a href="https://www.vanderbilt.edu" target="_blank" class="education-card">
+              <h3>Vanderbilt University <span class="arrow">›</span></h3>
+              <p class="degree">Bachelor of Science in Computer Science and Economics</p>
+              <p class="experience-meta">Nashville, TN</p>
+              <p class="experience-meta">Aug 2020 - May 2024 | 3.76 GPA</p>
+              <p>
+                Studied computer science and economics with a focus on software engineering, distributed systems, and algorithmic problem-solving. Engaged in coursework covering data structures, algorithms, software design, and economic theory.
+              </p>
+            </a>
           </div>
         </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
-    </section>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:jack.zhang@vanderbilt.edu">jack.zhang@vanderbilt.edu</a></p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com/in/jackzhang10/">LinkedIn</a></p>
-        </div>
-      </div>
-    </section>
-    <div id="footer-placeholder"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Jack Zhang. All rights reserved.</p>
+    </footer>
+
     <script src="script.js"></script>
-    <script src="components.js"></script>
-    <script>
-        document.getElementById('navigation-placeholder').innerHTML = createNavigation();
-        document.getElementById('navigation-clicks-placeholder').innerHTML = navigationClick();
-        document.getElementById('footer-placeholder').innerHTML = createFooter();
-    </script>
   </body>
 </html>
